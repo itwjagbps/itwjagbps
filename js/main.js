@@ -4,7 +4,7 @@ const artists = [
   {
     name: "Ad Minolti",
     piece: "Play Significant Otherness",
-    outerLink: "http://minoliti.com.ar/P_S_O/web-export/"
+    outerLink: "https://minoliti.com.ar/P_S_O/web-export/"
   },
   { name: "Luisa Brandelli", piece: "5 Estrelas", outerLink: false },
   { name: "Alina Rancier", piece: "Ay!", outerLink: false },
@@ -28,13 +28,13 @@ artists.map(artist => {
 
   let parsedPiece = artist.outerLink
     ? artist.outerLink
-    : artist.piece
+    : `${artist.piece
         .split(" ")
         .map(d => d.toLowerCase())
-        .join("-");
+        .join("-")}.html`;
 
   let name = $(`<li class='list-group-item'>`).html(
-    `${artist.name}: <a class='btn btn-primary' href='${parsedPiece}.html'>${artist.piece} </a>`
+    `${artist.name}: <a class='btn btn-primary' href='${parsedPiece}'>${artist.piece} </a>`
   );
   $("#artist-list").append(name);
 });
