@@ -2,10 +2,6 @@
   margin-bottom: 100px;
 }
 
-body {
-  background-color: #c8a491;
-}
-
 #col-adchoice {
   bottom: 150px;
   right: 150px;
@@ -48,6 +44,15 @@ body {
   left: 70px;
 }
 
+#img-driedup {
+  width: 100%;
+  height: 100%;
+}
+
+#col-driedup {
+  bottom: 100px;
+}
+
 @media only screen and (max-width: 40em) {
   #img-kitties {
     width: 40%;
@@ -71,6 +76,36 @@ body {
     width: 40%;
     height: 40%;
     margin-bottom: 40px;
+  }
+
+  /* allow */
+
+  #img-allow {
+    width: 20%;
+    height: 20%;
+  }
+
+  #col-allow {
+    bottom: 180px;
+    left: 150px;
+  }
+
+  /* video */
+
+  #col-assimilation-video {
+    bottom: 200px;
+    left: 220px;
+  }
+
+  /* driedup */
+
+  #img-driedup {
+    width: 50%;
+    height: 50%;
+  }
+
+  #col-driedup {
+    bottom: 250px;
   }
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 

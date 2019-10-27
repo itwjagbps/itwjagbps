@@ -1,0 +1,54 @@
+#video-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+#foggy-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#led-img{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+#vimeo-video{
+    /* height: 100%; */
+    width: 100%;
+    /* right: 50%; */
+    margin-top: 75px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #foggy-video {
+    top: -100%;
+    height: 300%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #foggy-video {
+    width: 300%;
+    height: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #video-div {
+    background-image: url("../images/the-light-in-the-foggy-coast/fog.png")
+      center center / cover no-repeat;
+  }
+  video#foggy-video {
+    display: none;
+  }
+}
