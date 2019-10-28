@@ -3,25 +3,25 @@ let giphyEmbedLink = "https://media.giphy.com/media/";
 let gridData = [
   {
     gifLinks: [
-      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-3 gif" },
-      { name: "hqTfCVz9dT03nrHsDc", class: "col-md-3 gif" },
-      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-3 gif" }
+      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-4 gif" },
+      { name: "hqTfCVz9dT03nrHsDc", class: "col-md-4 col-sm-4 gif" },
+      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-4 gif" }
     ],
     class: "row gif-row"
   },
   {
     gifLinks: [
-      { name: "dy3hu2VUKFFxs2ZwzB", class: "col-md-3 gif" },
-      { name: "mGEjfBYzbInzcirJPo", class: "col-md-3 gif" },
-      { name: "ZZrk4gIW7qwb9YDFW1", class: "col-md-3 gif" }
+      { name: "dy3hu2VUKFFxs2ZwzB", class: "col-md-4 col-sm-4 gif" },
+      { name: "mGEjfBYzbInzcirJPo", class: "col-md-4 col-sm-4 gif" },
+      { name: "ZZrk4gIW7qwb9YDFW1", class: "col-md-4 col-sm-4 gif" }
     ],
     class: "row gif-row"
   },
   {
     gifLinks: [
-      { name: "QX1wdUMZUIpd7ZdiEg", class: "col-md-3 gif" },
-      { name: "hTJ7jWhx4npSJqNTQF", class: "col-md-3 gif" },
-      { name: "RhGhAisyQ0F9hGC8hX", class: "col-md-3 gif" }
+      { name: "QX1wdUMZUIpd7ZdiEg", class: "col-md-4 col-sm-4 gif" },
+      { name: "hTJ7jWhx4npSJqNTQF", class: "col-md-4 col-sm-4 gif" },
+      { name: "RhGhAisyQ0F9hGC8hX", class: "col-md-4 col-sm-4 gif" }
     ],
     class: "row gif-row"
   }
@@ -38,7 +38,7 @@ gridData.map(row => {
   let gifRow = $(`<div class=${row.class}></div>`);
 
   // create a col-md-3 column
-  let firstCol = $(`<div class=col-md-3></div>`);
+  let firstCol = $(`<div class=col-md-3 col-sm-3></div>`);
 
   // append firstCol to row
   gifRow.append(firstCol);
@@ -49,7 +49,8 @@ gridData.map(row => {
   row.gifLinks.map(gif => {
     // console.log(gif);
     // and create divs and give appropriate attributes
-    let gifDiv = $(`<div class=${gif.class}></div>`);
+    // console.log(gif.class);
+    let gifDiv = $(`<div class="${gif.class}"></div>`);
 
     // create an image and give the appropriate links
     let image = $(
@@ -59,7 +60,7 @@ gridData.map(row => {
     // append image to gifDiv
     gifDiv.append(image);
 
-    console.log(gifDiv);
+    // console.log(gifDiv);
 
     // append gifDiv to gifRow
 

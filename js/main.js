@@ -12,7 +12,11 @@ const artists = [
     outerLink: "/5-estrelas.html"
   },
   { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!.html" },
-  { name: "Elisa Bergel Melo", piece: "ok guarebel", outerLink: false },
+  {
+    name: "Elisa Bergel Melo",
+    piece: "ok guarebel",
+    outerLink: "/ok-guarebel.html"
+  },
   {
     name: "Javier Maria",
     piece: "Futuro Flotante",
@@ -38,11 +42,11 @@ const artists = [
     piece: "The Light in the Foggy Coast",
     outerLink: "/the-light-in-the-foggy-coast.html"
   },
-  {
-    name: "Joiri Minaya",
-    piece: "Redecode",
-    outerLink: "/redecode.html"
-  }
+  // {
+  //   name: "Joiri Minaya",
+  //   piece: "Redecode",
+  //   outerLink: "/redecode.html"
+  // }
 ];
 
 // add &nbsp blank spaces in front of .artist-list to indent artist names
