@@ -28,9 +28,9 @@ const artists = [
     outerLink: "/undipbienlazy-phantasiatransdermica.html"
   },
   {
-    name: "Gabriella Torres-Ferrer",
-    piece: "Assimilation",
-    outerLink: "/assimilation.html"
+    name: "Gala Berger",
+    piece: "The Light in the Foggy Coast",
+    outerLink: "/the-light-in-the-foggy-coast.html"
   },
   {
     name: "Those Girls",
@@ -38,10 +38,10 @@ const artists = [
     outerLink: "/the-perfect-veil.html"
   },
   {
-    name: "Gala Berger",
-    piece: "The Light in the Foggy Coast",
-    outerLink: "/the-light-in-the-foggy-coast.html"
-  },
+    name: "Gabriella Torres-Ferrer",
+    piece: "Assimilation",
+    outerLink: "/assimilation.html"
+  }
   // {
   //   name: "Joiri Minaya",
   //   piece: "Redecode",
@@ -60,13 +60,12 @@ while (i <= 10) {
 // iteratively append artist names to #div-col-artists
 artists.map(artist => {
   // declare a variable that will return a lowercased and kebab cased string for each piece of the artists
-  let name = $(
-    `<li class='artist' data-piece=${artist.piece
-      .split(" ")
-      .map(word => word.toLowerCase())
-      .join("-")}>`
-  ).html(
-    `<a class="artist-link" href="${artist.outerLink}">${artist.name}</a>`
+  let pieceName = artist.piece
+    .split(" ")
+    .map(word => word.toLowerCase())
+    .join("-");
+  let name = $(`<li class='artist' data-piece=${pieceName}>`).html(
+    `<a class="artist-link" id=${pieceName} href="${artist.outerLink}">${artist.name}</a>`
   );
   $(".artist-list").append(name);
 });

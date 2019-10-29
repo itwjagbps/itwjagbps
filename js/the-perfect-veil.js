@@ -22,13 +22,13 @@ function appendImage() {
   let image = $(`<img src="/images/the-perfect-veil/${imageNumber}.gif" />`);
   image
     .css("position", "absolute")
-    .css("top", `${getRandomIntInclusive(0, window.innerHeight/2)}px`)
-    .css("left", `${getRandomIntInclusive(0, window.innerWidth/2)}px`);
+    .css("top", `${getRandomIntInclusive(0, window.innerHeight/1.7)}px`)
+    .css("left", `${getRandomIntInclusive(0, window.innerWidth/1.5)}px`);
   $("#gifDiv").append(image);
 
   gifCounter++;
   console.log(gifCounter);
-  if (gifCounter > 50) {
+  if (gifCounter > 200) {
     //   console.log('stop!');
     stopAppending();
   }

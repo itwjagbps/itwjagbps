@@ -4,6 +4,7 @@
 
 .artist-list {
   font-size: 45px;
+  padding-left: 150px;
   margin-bottom: 2px;
   line-height: 4rem;
 }
@@ -43,4 +44,8 @@ a:link {
 
 a:visited {
   color: black;
+}
+
+#the-perfect-veil {
+  /* margin-left: 500px; */
 }
