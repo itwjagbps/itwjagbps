@@ -1,6 +1,5 @@
-#iframeDiv {
-  top: 500px;
-  overflow: hidden;
+body {
+  overflow-x: hidden;
 }
 
 body {
@@ -11,4 +10,11 @@ svg {
   position: absolute;
   top: 40px;
   left: 500px;
+}
+
+@media (max-width: 768px) {
+  #iframeDiv {
+    top: 250px;
+    /* overflow: hidden; */
+  }
 }
