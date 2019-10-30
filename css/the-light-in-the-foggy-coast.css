@@ -38,25 +38,6 @@ iframe {
   height: auto;
 }
 
-@media (max-width: 767px) {
-  #vimeo-video {
-    width: 90%;
-    margin-right: 20px;
-  }
-
-  iframe {
-    /* width: 50%; */
-    right: 2px;
-    top: 200px;
-  }
-  #led-img {
-    /* position: absolute; */
-    top: 240px;
-    width: 90%;
-    height: auto;
-  }
-}
-
 @media (min-aspect-ratio: 16/9) {
   #foggy-video {
     top: -100%;
@@ -68,5 +49,27 @@ iframe {
   #foggy-video {
     width: 300%;
     height: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #foggy-video {
+    display: none;
+  }
+
+  #video-div {
+    background: url("../images/the-light-in-the-foggy-coast/fog.png") center center;
+    border: none;
+  }
+
+  #vimeo-video {
+    top: 200px;
+    width: 90%;
+  }
+  #led-img {
+    /* position: absolute; */
+    top: 240px;
+    width: 90%;
+    height: auto;
   }
 }
