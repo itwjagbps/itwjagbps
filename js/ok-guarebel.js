@@ -4,11 +4,18 @@ let contentRow = $("#content-row");
 
 // store a list of vimeo links to an array
 let vimeoVideoArray = [
-  "https://player.vimeo.com/video/369189828",
-  "https://player.vimeo.com/video/369190199",
-  "https://player.vimeo.com/video/369190335",
-  "https://player.vimeo.com/video/369190447",
-  "https://player.vimeo.com/video/369190606"
+  "https://player.vimeo.com/video/369646188",
+  "https://player.vimeo.com/video/369646627",
+  "https://player.vimeo.com/video/369647145",
+  "https://player.vimeo.com/video/369648560",
+  "https://player.vimeo.com/video/369650964",
+  "https://player.vimeo.com/video/369634206",
+  "https://player.vimeo.com/video/369642546",
+  "https://player.vimeo.com/video/369643078",
+  "https://player.vimeo.com/video/369644694",
+  "https://player.vimeo.com/video/369644869",
+  "https://player.vimeo.com/video/369645205",
+  "https://player.vimeo.com/video/369645584"
 ];
 
 // store the iframe src format for vimeo embed links

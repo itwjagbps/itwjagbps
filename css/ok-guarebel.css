@@ -1,6 +1,8 @@
 body {
   background-color: #fcdede;
+  overflow-x: hidden;
 }
+
 .video {
   width: 100%;
   height: auto;
@@ -10,4 +12,7 @@ body {
 #content-row {
   position: absolute;
   top: 33%;
+  margin-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
