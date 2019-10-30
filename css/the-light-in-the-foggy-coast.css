@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 #video-div {
   position: fixed;
   top: 0;
@@ -16,17 +19,42 @@
   height: 100%;
 }
 
-#led-img{
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
+#vimeo-video {
+  /* height: 100%; */
+  width: 100%;
+  /* right: 50%; */
+  margin-top: 75px;
 }
 
-#vimeo-video{
-    /* height: 100%; */
-    width: 100%;
-    /* right: 50%; */
-    margin-top: 75px;
+iframe {
+  position: absolute;
+  top: 300px;
+}
+
+#led-img {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  #vimeo-video {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  iframe {
+    /* width: 50%; */
+    right: 2px;
+    top: 200px;
+  }
+  #led-img {
+    /* position: absolute; */
+    top: 240px;
+    width: 90%;
+    height: auto;
+  }
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -40,15 +68,5 @@
   #foggy-video {
     width: 300%;
     height: -100%;
-  }
-}
-
-@media (max-width: 767px) {
-  #video-div {
-    background-image: url("../images/the-light-in-the-foggy-coast/fog.png")
-      center center / cover no-repeat;
-  }
-  video#foggy-video {
-    display: none;
   }
 }
