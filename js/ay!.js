@@ -3,25 +3,25 @@ let giphyEmbedLink = "https://media.giphy.com/media/";
 let gridData = [
   {
     gifLinks: [
-      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-4 gif" },
-      { name: "hqTfCVz9dT03nrHsDc", class: "col-md-4 col-sm-4 gif" },
-      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-4 gif" }
+      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-12 gif" },
+      { name: "hqTfCVz9dT03nrHsDc", class: "col-md-4 col-sm-12 gif" },
+      { name: "hsC2YwH3RMtzBn91uQ", class: "col-md-4 col-sm-12 gif" }
     ],
     class: "row gif-row"
   },
   {
     gifLinks: [
-      { name: "dy3hu2VUKFFxs2ZwzB", class: "col-md-4 col-sm-4 gif" },
-      { name: "mGEjfBYzbInzcirJPo", class: "col-md-4 col-sm-4 gif" },
-      { name: "ZZrk4gIW7qwb9YDFW1", class: "col-md-4 col-sm-4 gif" }
+      { name: "dy3hu2VUKFFxs2ZwzB", class: "col-md-4 col-sm-12 gif" },
+      { name: "mGEjfBYzbInzcirJPo", class: "col-md-4 col-sm-12 gif" },
+      { name: "ZZrk4gIW7qwb9YDFW1", class: "col-md-4 col-sm-12 gif" }
     ],
     class: "row gif-row"
   },
   {
     gifLinks: [
-      { name: "QX1wdUMZUIpd7ZdiEg", class: "col-md-4 col-sm-4 gif" },
-      { name: "hTJ7jWhx4npSJqNTQF", class: "col-md-4 col-sm-4 gif" },
-      { name: "RhGhAisyQ0F9hGC8hX", class: "col-md-4 col-sm-4 gif" }
+      { name: "QX1wdUMZUIpd7ZdiEg", class: "col-md-4 col-sm-12 gif" },
+      { name: "hTJ7jWhx4npSJqNTQF", class: "col-md-4 col-sm-12 gif" },
+      { name: "RhGhAisyQ0F9hGC8hX", class: "col-md-4 col-sm-12 gif" }
     ],
     class: "row gif-row"
   }
