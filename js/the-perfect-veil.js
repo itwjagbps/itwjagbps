@@ -19,7 +19,7 @@ let gifCounter = 0;
 function appendImage() {
   $(".gifContainer").css("position", "relative");
   let imageNumber = getRandomInt();
-  let image = $(`<img src="/images/the-perfect-veil/${imageNumber}.gif" />`);
+  let image = $(`<img src="../images/the-perfect-veil/${imageNumber}.gif" />`);
   image
     .css("position", "absolute")
     .css("top", `${getRandomIntInclusive(0, window.innerHeight/1.7)}px`)

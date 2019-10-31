@@ -1,5 +1,5 @@
 // set redecode image as body background
-let imageUrl = "/images/5-estrelas/gradient.jpg";
+let imageUrl = "../images/5-estrelas/gradient.jpg";
 $("body")
   .css("background-image", `url(${imageUrl})`)
   .css("background-position", "40% 10%");

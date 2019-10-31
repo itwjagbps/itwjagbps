@@ -9,13 +9,13 @@ const artists = [
   {
     name: "Luisa Brandelli",
     piece: "5 Estrelas",
-    outerLink: "/5-estrelas.html"
+    outerLink: "/5-estrelas"
   },
-  { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!.html" },
+  { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!" },
   {
     name: "Elisa Bergel Melo",
     piece: "ok guarebel",
-    outerLink: "/ok-guarebel.html"
+    outerLink: "/ok-guarebel"
   },
   {
     name: "Javier Maria",
@@ -25,22 +25,22 @@ const artists = [
   {
     name: "Ray Ferreira",
     piece: "undipbienlazy-phantasiatransdermica",
-    outerLink: "/undipbienlazy-phantasiatransdermica.html"
+    outerLink: "/undipbienlazy-phantasiatransdermica"
   },
   {
     name: "Gala Berger",
     piece: "The Light in the Foggy Coast",
-    outerLink: "/the-light-in-the-foggy-coast.html"
+    outerLink: "/the-light-in-the-foggy-coast"
   },
   {
     name: "Those Girls",
     piece: "The Perfect Veil",
-    outerLink: "/the-perfect-veil.html"
+    outerLink: "/the-perfect-veil"
   },
   {
     name: "Gabriella Torres-Ferrer",
     piece: "Assimilation",
-    outerLink: "/assimilation.html"
+    outerLink: "/assimilation"
   }
   // {
   //   name: "Joiri Minaya",

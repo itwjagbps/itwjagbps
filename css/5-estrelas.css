@@ -10,7 +10,7 @@ img#gradient {
 
 img.story-image {
   /* position: absolute; */
-  width: 300px;
+  width: 250px;
   height: auto;
   margin-right: 300px;
   /* margin: 100px 0px 100px 55px; */
@@ -18,7 +18,8 @@ img.story-image {
 
 #estrelas-row {
   position: absolute;
-  top: 25%;
+  top: 28%;
+  left: 3%
 }
 
 @media (max-width: 768px) {
