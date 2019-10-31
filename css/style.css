@@ -4,7 +4,8 @@
 
 .artist-list {
   font-size: 45px;
-  padding-left: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-bottom: 2px;
   line-height: 4rem;
 }
