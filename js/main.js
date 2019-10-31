@@ -11,7 +11,7 @@ const artists = [
     piece: "5 Estrelas",
     outerLink: "https://www.itwjagbps.net/5-estrelas.html"
   },
-  { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!.html" },
+  { name: "Alina Rancier", piece: "Ay!", outerLink: "https://www.itwjagbps.net/ay!.html" },
   {
     name: "Elisa Bergel Melo",
     piece: "ok guarebel",
