@@ -23,7 +23,7 @@ body {
   /* height: 100%; */
   width: 100%;
   /* right: 50%; */
-  margin-top: 75px;
+  margin-top: 25px;
 }
 
 iframe {
@@ -33,7 +33,7 @@ iframe {
 
 #led-img {
   position: absolute;
-  top: 200px;
+  top: 150px;
   width: 100%;
   height: auto;
 }

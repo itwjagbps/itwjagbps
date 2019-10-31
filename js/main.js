@@ -9,13 +9,13 @@ const artists = [
   {
     name: "Luisa Brandelli",
     piece: "5 Estrelas",
-    outerLink: "https://www.itwjagbps.net/5-estrelas.html"
+    outerLink: "/5-estrelas.html"
   },
-  { name: "Alina Rancier", piece: "Ay!", outerLink: "https://www.itwjagbps.net/ay!.html" },
+  { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!.html" },
   {
     name: "Elisa Bergel Melo",
     piece: "ok guarebel",
-    outerLink: "https://www.itwjagbps.net/ok-guarebel.html"
+    outerLink: "/ok-guarebel.html"
   },
   {
     name: "Javier Maria",
@@ -25,22 +25,22 @@ const artists = [
   {
     name: "Ray Ferreira",
     piece: "undipbienlazy-phantasiatransdermica",
-    outerLink: "https://www.itwjagbps.net/undipbienlazy-phantasiatransdermica.html"
+    outerLink: "/undipbienlazy-phantasiatransdermica.html"
   },
   {
     name: "Gala Berger",
     piece: "The Light in the Foggy Coast",
-    outerLink: "https://www.itwjagbps.net/the-light-in-the-foggy-coast.html"
+    outerLink: "/the-light-in-the-foggy-coast.html"
   },
   {
     name: "Those Girls",
     piece: "The Perfect Veil",
-    outerLink: "https://www.itwjagbps.net/the-perfect-veil.html"
+    outerLink: "/the-perfect-veil.html"
   },
   {
     name: "Gabriella Torres-Ferrer",
     piece: "Assimilation",
-    outerLink: "https://www.itwjagbps.net/assimilation.html"
+    outerLink: "/assimilation.html"
   }
   // {
   //   name: "Joiri Minaya",
@@ -114,7 +114,7 @@ $("#div-col-artists").append(imageDiv);
 $("li").mouseover(function() {
   console.log($(this).attr("class"));
   let pieceImage = $(
-    `<img src='https://www.itwjagbps.net/images/stills/${$(this).attr("data-piece")}.png' />`
+    `<img src='/images/stills/${$(this).attr("data-piece")}.png' />`
   );
   console.log(pieceImage.attr("height"));
   pieceImage.css("height", "75%").css("width", "75%");

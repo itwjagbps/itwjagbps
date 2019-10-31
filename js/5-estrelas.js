@@ -9,7 +9,7 @@ let imageCounter = 1;
 
 while (imageCounter < 6) {
   // create a new dom bootstrap column
-  let column = $('<div class="col-md-1 col-sm-11"> </div>');
+  let column = $('<div class="col-md-2 col-sm-11"> </div>');
 
   //   create an image tag and assign css properties
   let imageElement = $(
