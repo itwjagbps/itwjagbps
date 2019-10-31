@@ -58,17 +58,18 @@ iframe {
   }
 
   #video-div {
-    background: url("https://www.itwjagbps.net/images/the-light-in-the-foggy-coast/fog.png") center center;
+    background: url("https://www.itwjagbps.net/images/the-light-in-the-foggy-coast/fog.png")
+      center center;
     border: none;
   }
 
   #vimeo-video {
-    top: 200px;
+    top: 180px;
     width: 90%;
   }
   #led-img {
     /* position: absolute; */
-    top: 240px;
+    top: 170px;
     width: 90%;
     height: auto;
   }
