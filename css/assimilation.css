@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 #void-row {
   margin-bottom: 100px;
 }

@@ -3,7 +3,7 @@ body {
 }
 
 #header-title {
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 #content-row {
@@ -14,12 +14,14 @@ body {
 #div-bottom {
   /* position: absolute; */
   margin-top: 100px;
-  margin-left: 100px;
+  margin-right: 100px;
 }
 
-#logo-tagline {
-  /* position: relative; */
-  display: inline;
+.logo-tagline {
+  /* position: absolute; */
+  /* float: right; */
+  text-align: right;
+  margin-right: 100px;
 }
 
 #div-artists {
@@ -45,11 +47,11 @@ body {
   font-size: 100px;
   /* margin-left: 30px; */
   left: 30px;
-  top: 15px;
+  top: 20px;
   position: relative;
 }
 .artist-list li:first-child:before {
-  content: "";
+  /* content: ""; */
 }
 
 p {
@@ -69,14 +71,17 @@ a:visited {
   color: black;
 }
 
-
-#the-perfect-veil{
-  left: 50%;
+#logo-div {
+  position: absolute;
+  /* margin-right: 100px; */
+  right: 100px;
+  bottom: -100px;
 }
 
 @media (max-width: 768px) {
   #header-title {
-    margin-left: 50px;
+    margin-left: 30px;
+    font-size: 20px;
   }
   #logo-div {
     margin-left: 0px;
@@ -95,26 +100,32 @@ a:visited {
     color: black;
     font-size: 45px;
     margin-left: 0px;
-    left: 0px;
-    top: 15px;
+    left: 15px;
+    top: 8px;
     position: relative;
   }
   #content-row {
-    top: 10%;
+    top: 14%;
     padding-left: 0px;
   }
 
   #div-bottom {
     position: absolute;
     bottom: 10%;
+    /* left: 10%; */
   }
 
-  #logo-tagline {
+  .logo-tagline {
     /* position: relative; */
-    display: inline;
+    /* display: inline; */
+    /* margin-right: 10px; */
+    font-size: 15px;
+    margin-left: 20px;
   }
 
-  /* #logo-div {
-    margin-left: 200px;
-  } */
+  #logo-div {
+    position: absolute;
+    right: -30px;
+    bottom: 5px;
+  }
 }

@@ -51,11 +51,11 @@ const artists = [
 
 // add &nbsp blank spaces in front of .artist-list to indent artist names
 
-let i = 0;
-while (i <= 10) {
-  $(".artist-list").append(`&nbsp;`);
-  i++;
-}
+// let i = 0;
+// while (i <= 10) {
+//   $(".artist-list").append(`&nbsp;`);
+//   i++;
+// }
 
 // iteratively append artist names to #div-col-artists
 artists.map(artist => {
