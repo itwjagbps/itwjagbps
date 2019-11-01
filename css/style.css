@@ -1,6 +1,32 @@
 body {
   overflow-x: hidden;
 }
+
+#header-title {
+  margin-left: 100px;
+}
+
+#content-row {
+  position: absolute;
+  top: 33%;
+}
+
+#div-bottom {
+  /* position: absolute; */
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+#logo-tagline {
+  /* position: relative; */
+  display: inline;
+}
+
+#div-artists {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .artist {
   display: inline;
 }
@@ -26,13 +52,6 @@ body {
   content: "";
 }
 
-.container {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  /* margin-left: 25%; */
-}
-
 p {
   position: relative;
   top: 20px;
@@ -50,6 +69,52 @@ a:visited {
   color: black;
 }
 
-#the-perfect-veil {
-  /* margin-left: 500px; */
+
+#the-perfect-veil{
+  left: 50%;
+}
+
+@media (max-width: 768px) {
+  #header-title {
+    margin-left: 50px;
+  }
+  #logo-div {
+    margin-left: 0px;
+  }
+
+  .artist-list {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 200px;
+    line-height: 4rem;
+  }
+
+  .artist-list li:before {
+    content: "\00a0\2022\00a0\00a0";
+    color: black;
+    font-size: 45px;
+    margin-left: 0px;
+    left: 0px;
+    top: 15px;
+    position: relative;
+  }
+  #content-row {
+    top: 10%;
+    padding-left: 0px;
+  }
+
+  #div-bottom {
+    position: absolute;
+    bottom: 10%;
+  }
+
+  #logo-tagline {
+    /* position: relative; */
+    display: inline;
+  }
+
+  /* #logo-div {
+    margin-left: 200px;
+  } */
 }

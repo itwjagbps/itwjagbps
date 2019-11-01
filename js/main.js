@@ -106,19 +106,41 @@ while (col < 3) {
 // append a div to #div-col-artists
 let imageDiv = $(`<div class="img-div"></div>`)
   .css("position", "absolute")
-  .css("z-index", "-5")
-  .css("top", "0")
-  .css("left", "20%");
+  .css("z-index", "-10")
+  .css("top", "-100px")
+  .css("left", "23%");
+
 $("#div-col-artists").append(imageDiv);
 
 $("li").mouseover(function() {
   console.log($(this).attr("class"));
   let pieceImage = $(
-    `<img src='/images/stills/${$(this).attr("data-piece")}.png' />`
+    `<img id=${$(this).attr("data-piece")} src='/images/stills/${$(this).attr(
+      "data-piece"
+    )}.png' />`
   );
   console.log(pieceImage.attr("height"));
   pieceImage.css("height", "75%").css("width", "75%");
   imageDiv.html(pieceImage);
+
+  if (pieceImage.attr("id") === "the-perfect-veil") {
+    imageDiv.css("left", "40%").css("top", "0px");
+  } else if (pieceImage.attr("id") === "ok-guarebel") {
+    imageDiv.css("left", "18%").css("top", "-150px");
+  } else if (pieceImage.attr("id") === "5-estrelas") {
+    imageDiv.css("left", "40%").css("top", "-150px");
+    pieceImage.css("height", "30%").css("width", "30%");
+  } else if (pieceImage.attr("id") === "ay!") {
+    imageDiv.css("left", "34%").css("top", "-80px");
+  } else if (pieceImage.attr("id") === "assimilation") {
+    imageDiv.css("left", "25%").css("top", "-150px");
+  }
+  else if (pieceImage.attr("id") === "the-light-in-the-foggy-coast") {
+    imageDiv.css("left", "25%").css("top", "-150px");
+  }
+  else {
+    imageDiv.css("left", "20%").css("top", "-100px");
+  }
 });
 
 $("li").mouseout(function() {
