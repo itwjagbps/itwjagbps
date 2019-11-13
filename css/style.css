@@ -44,11 +44,11 @@ body {
 }
 
 .artist-list {
-  font-size: 4rem !important;
+  font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
   margin-bottom: 2px;
-  line-height: 3rem !important;
+  line-height: 5rem !important;
 }
 
 .artist-list li:before {
@@ -75,8 +75,10 @@ p {
 }
 
 a:link {
-  color: black; text-decoration: underline !important
+  color: black; 
 }
+
+a:hover {text-decoration: line-through}
 
 a:visited {
   color: black;
