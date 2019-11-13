@@ -86,8 +86,8 @@ a:visited {
 #logo-div {
   position: absolute;
   /* margin-right: 100px; */
-  right: 100px;
-  bottom: -100px;
+  right: 30px;
+  bottom: 10px;
 }
 
 @media (max-width: 768px) {
