@@ -52,7 +52,7 @@ const artists = [
 // add &nbsp blank spaces in front of .artist-list to indent artist names
 
  let i = 0;
- while (i <= 10) {
+ while (i <= 1) {
    $(".artist-list").append(`&nbsp;,`);
    i++;
  }
