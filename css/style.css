@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'SpaceMono-Regular';
+  font-family: "SpaceMono-Regular";
   font-style: normal;
-  src: url(fonts/SpaceMono-Regular.ttf) format('truetype');}
+  src: url(fonts/SpaceMono-Regular.ttf) format("truetype");}
 
 
 
 body {
   overflow-x: hidden;
-  font-family: 'SpaceMono-Regular';
+  font-family: "SpaceMono-Regular" !important;
 }
 
 #header-title {
