@@ -23,7 +23,7 @@ function start() {
   }
 
   function render(time) {
-    time *= 0.0005;
+    time *= 0.00005;
 
     resize(canvas);
 
