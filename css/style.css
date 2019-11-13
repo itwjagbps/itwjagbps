@@ -5,7 +5,7 @@
 
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
-a {color:black; text-decoration: line-through}
+a {color:black; text-decoration: underline}
 
 body {
   position: fixed;
@@ -71,8 +71,9 @@ p {
   top: 20px;
 }
 .artist-link:hover {
+  visibilty: none !important;
   border: none;
-  text-decoration: none;
+  text-decoration: line-through;
 }
 
 a:link {
@@ -82,6 +83,7 @@ a:link {
 a:visited {
   color: black;
 }
+
 
 #logo-div {
   position: absolute;
