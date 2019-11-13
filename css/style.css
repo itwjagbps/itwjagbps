@@ -6,6 +6,7 @@
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
 body {
+  position: fixed;
   overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   margin:0;
@@ -97,11 +98,11 @@ a:visited {
   }
 
   .artist-list {
-    font-size: 20px;
+    font-size: 4rem;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 200px;
-    line-height: 4rem;
+    line-height: 3rem;
   }
 
   .artist-list li:before {
