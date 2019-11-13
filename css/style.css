@@ -5,7 +5,7 @@
 
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
-a {color:black; text-decoration: underline overline}
+a {color:black; text-decoration: line-through}
 
 body {
   position: fixed;
