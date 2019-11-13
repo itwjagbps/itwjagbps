@@ -5,7 +5,6 @@
 
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
-a {color:black; text-decoration: underline}
 
 body {
   position: fixed;
@@ -77,7 +76,7 @@ p {
 }
 
 a:link {
-  color: black;
+  color: black; text-decoration: underline !important
 }
 
 a:visited {
