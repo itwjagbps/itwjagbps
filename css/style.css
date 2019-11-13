@@ -7,7 +7,6 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 
 
 body {
-  position: fixed;
   overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   margin:0;
@@ -45,7 +44,7 @@ body {
 }
 
 .artist-list {
-  font-size: 2rem !important;
+  font-size: 4rem !important;
   padding-left: 150px;
   padding-right: 100px;
   margin-bottom: 2px;
@@ -136,7 +135,7 @@ a:visited {
     margin-left: 20px;
   }
 
-  #logo-div {
+  .footer {
     position: absolute;
     right: 30px !important;
     bottom: 30px !important;
