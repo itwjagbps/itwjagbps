@@ -58,9 +58,9 @@ const artists = [
 
  //let i = 0;
  //while (i <= 1) {
-  // $(".artist-list").append(`&nbsp;,`);
-  // i++;
- }
+ // $(".artist-list").append(`&nbsp;,`);
+ // i++;
+ //}
 
 // iteratively append artist names to #div-col-artists
 artists.map(artist => {
