@@ -16,11 +16,26 @@ const artists = [
     piece: "5 Estrelas",
     outerLink: "/5-estrelas"
   },
+  {
+    name: ", ",
+    piece: "",
+    outerLink: ""
+  },
   { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!" },
+  {
+    name: ", ",
+    piece: "",
+    outerLink: ""
+  },
   {
     name: "Elisa Bergel Melo",
     piece: "ok guarebel",
     outerLink: "/ok-guarebel"
+  },
+  {
+    name: ", ",
+    piece: "",
+    outerLink: ""
   },
   {
     name: "Javier Maria",
@@ -28,9 +43,19 @@ const artists = [
     outerLink: "https://fade-cut.github.io/futuroflotante/"
   },
   {
+    name: ", ",
+    piece: "",
+    outerLink: ""
+  },
+  {
     name: "Ray Ferreira",
     piece: "undipbienlazy-phantasiatransdermica",
     outerLink: "/undipbienlazy-phantasiatransdermica"
+  },
+  {
+    name: ", ",
+    piece: "",
+    outerLink: ""
   },
   {
     name: "Gala Berger",
@@ -38,9 +63,19 @@ const artists = [
     outerLink: "/the-light-in-the-foggy-coast"
   },
   {
+    name: ", ",
+    piece: "",
+    outerLink: ""
+  },
+  {
     name: "Those Girls",
     piece: "The Perfect Veil",
     outerLink: "/the-perfect-veil"
+  },
+  {
+    name: ", ",
+    piece: "",
+    outerLink: ""
   },
   {
     name: "Gabriella Torres-Ferrer",
