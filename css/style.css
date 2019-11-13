@@ -3,7 +3,7 @@
   font-style: normal;
   src: url(css/SpaceMono-Regular.ttf) format("truetype");}*/
 
-canvas { width: 100vw; height: 100vh; display: block; z-index: -9999}
+canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
 body {
   overflow-x: hidden;
@@ -43,7 +43,7 @@ body {
 }
 
 .artist-list {
-  font-size: 45px;
+  font-size: 3rem;
   padding-left: 150px;
   padding-right: 100px;
   margin-bottom: 2px;
@@ -51,13 +51,13 @@ body {
 }
 
 .artist-list li:before {
-  /* content: "\00a0\2022\00a0\00a0";*/
+  /* content: "\00a0\2022\00a0\00a0";
   color: black;
   font-size: 100px;
-  /* margin-left: 30px; */
+  margin-left: 30px; 
   left: 30px;
   top: 20px;
-  position: relative;
+  position: relative;*/
 }
 .artist-list li:first-child:before {
   /* content: ""; */
