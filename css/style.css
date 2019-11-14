@@ -75,7 +75,7 @@ body {
   line-height: 5rem !important;
 }
 
-.artist-list p {
+p {
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
@@ -96,10 +96,7 @@ body {
   /* content: ""; */
 }
 
-p {
-  position: relative;
-  top: 20px;
-}
+
 .artist-link:hover {
   
   border: none;
