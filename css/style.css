@@ -25,14 +25,14 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 button {
-  color:#666;
+  color:#444;
   border: none;
   font-size: 3rem !important;
   background: transparent;
   padding-left: 150px !important;
 }
 button:hover {
- text-decoration: line-through !important;
+ text-decoration: line-through !important; color: #0095ff
 }
   
 .footer {
