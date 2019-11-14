@@ -88,6 +88,7 @@ body {
 }
 
 .artist-list {
+  margin-top: 1rem;
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
