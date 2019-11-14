@@ -171,20 +171,20 @@ $("li").mouseover(function() {
   if (pieceImage.attr("id") === "the-perfect-veil") {
     imageDiv.css("left", "40%").css("top", "0px");
   } else if (pieceImage.attr("id") === "ok-guarebel") {
-    imageDiv.css("left", "18%").css("top", "-150px");
+    imageDiv.css("left", "18%").css("top", "-50px");
   } else if (pieceImage.attr("id") === "5-estrelas") {
-    imageDiv.css("left", "40%").css("top", "-150px");
+    imageDiv.css("left", "40%").css("top", "-50px");
     pieceImage.css("height", "30%").css("width", "30%");
   } else if (pieceImage.attr("id") === "ay!") {
     imageDiv.css("left", "34%").css("top", "-80px");
   } else if (pieceImage.attr("id") === "assimilation") {
-    imageDiv.css("left", "25%").css("top", "-150px");
+    imageDiv.css("left", "25%").css("top", "-50px");
   }
   else if (pieceImage.attr("id") === "the-light-in-the-foggy-coast") {
-    imageDiv.css("left", "25%").css("top", "-150px");
+    imageDiv.css("left", "25%").css("top", "-50px");
   }
   else {
-    imageDiv.css("left", "20%").css("top", "-100px");
+    imageDiv.css("left", "20%").css("top", "-50px");
   }
 });
 
