@@ -17,7 +17,8 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 .footer {
-  padding: 4rem;
+  top: 4rem;
+  right: 4rem;
   position: absolute;
   z-index: 99;
 }
@@ -184,10 +185,10 @@ a:visited {
   }
 
   .footer {
-  padding: 4rem;
+  
   position: absolute;
     right: 4rem;
-    top: 4 rem
+    top: 4rem;
   z-index: 99;
 }
 
