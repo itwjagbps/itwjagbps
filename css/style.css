@@ -23,6 +23,10 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
  } 
 }
 
+button {
+  padding-left: 150px !important;
+}
+  
 .footer {
   bottom: 2.5rem;
   right: 2.5rem;
@@ -204,7 +208,7 @@ a:visited {
 }
   
   button {
-   padding-left: 15px; 
+   padding-left: 15px !important; 
   }
 
 }
