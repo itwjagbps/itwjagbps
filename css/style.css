@@ -24,6 +24,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 button {
+  border: none;
   font-size: 3rem !important;
   background: transparent;
   padding-left: 170px !important;
