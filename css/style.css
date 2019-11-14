@@ -25,7 +25,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 button {
-  color:grey;
+  color:#666;
   border: none;
   font-size: 3rem !important;
   background: transparent;
@@ -98,6 +98,7 @@ body {
 }
 
 p {
+  color:black;
   pointer-events: none !important;
   font-size: 3rem !important;
   margin-left: 150px;
