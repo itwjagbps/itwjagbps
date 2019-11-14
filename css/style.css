@@ -18,8 +18,9 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   
    .tit img {
   position: relative;
-  margin: 2rem;
-  width: 21rem;
+  margin: 3rem;
+  margin-left: 1rem;
+  width: 22rem;
  } 
 }
 
