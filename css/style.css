@@ -3,7 +3,7 @@
   font-style: normal;
   src: url(css/SpaceMono-Regular.ttf) format("truetype");}*/
 
-canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999; overflow: hidden;}
+canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
 #more {display: none;}
 
@@ -18,10 +18,14 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   
    .tit img {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 15px;
-  width: 22rem;
+  width: 20.5rem;
  } 
+  html {
+overflow:auto !important;
+  
+}
 }
 
 button {
@@ -51,8 +55,13 @@ float: left;
 text-align: left;
 }
 
+html {
+overflow:hidden !important;
+  height:100% !important;
+}
+
 body {
-  overflow: hidden;
+  overflow: auto;
   font-family: 'Space Mono', monospace;
   margin:0;
 }
@@ -104,7 +113,7 @@ p {
   padding-right: 100px;
   margin-bottom: 10px;
   line-height: auto !important;
-  overflow: auto;
+  
 }
 
 .artist-list li:before {
