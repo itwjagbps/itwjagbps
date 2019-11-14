@@ -3,7 +3,7 @@
   font-style: normal;
   src: url(css/SpaceMono-Regular.ttf) format("truetype");}*/
 
-canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
+canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999; overflow: hidden;}
 
 #more {display: none;}
 
@@ -52,8 +52,7 @@ text-align: left;
 }
 
 body {
-  /*overflow-x: hidden;*/
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Space Mono', monospace;
   margin:0;
 }
