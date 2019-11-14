@@ -7,7 +7,7 @@ const artists = [
     outerLink: ""
   },
   {
-    name: "Ad Minolti",
+    name: "Ad Minoliti",
     piece: "Play Significant Otherness",
     outerLink: "https://minoliti.com.ar/P_S_O/web-export/"
   },
