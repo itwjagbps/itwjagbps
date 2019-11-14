@@ -7,7 +7,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 
 .tit img {
   position: relative;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-left: 9rem;
   width: 33em;
  }
