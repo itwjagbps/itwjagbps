@@ -18,7 +18,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 .footer {
-  top: 2.5rem;
+  bottom: 2.5rem;
   right: 2.5rem;
   position: absolute;
   z-index: 99;
