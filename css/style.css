@@ -67,12 +67,20 @@ body {
   display: inline;
 }
 
-.artist-list, .artist-list p {
+.artist-list {
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
   margin-bottom: 50px;
   line-height: 5rem !important;
+}
+
+.artist-list p {
+  font-size: 3rem !important;
+  padding-left: 150px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  line-height: auto !important;
 }
 
 .artist-list li:before {
