@@ -5,6 +5,8 @@
 
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
 
+#more {display: none;}
+
 .tit img {
   position: relative;
   margin-top: 5rem;
