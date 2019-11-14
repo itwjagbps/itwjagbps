@@ -99,7 +99,6 @@ body {
 
 p {
   color:black;
-  pointer-events: none !important;
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
