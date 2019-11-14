@@ -137,7 +137,7 @@ a:visited {
   .tit img {
   position: relative;
   margin: 2rem;
-  width: 26em;
+  width: 26rem;
  }
   
   #header-title {
@@ -202,11 +202,4 @@ a:visited {
 
 }
 
-.footer img {
- 
-}
-.footer p {
-float: right;
-text-align: right;
-}
 }
