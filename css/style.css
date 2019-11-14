@@ -104,7 +104,7 @@ p {
   padding-right: 100px;
   margin-bottom: 10px;
   line-height: auto !important;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .artist-list li:before {
