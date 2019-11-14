@@ -202,5 +202,9 @@ a:visited {
     position: fixed;
 
 }
+  
+  button {
+   padding-left: 15px; 
+  }
 
 }
