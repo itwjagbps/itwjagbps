@@ -69,7 +69,7 @@ p {
   top: 20px;
 }
 .artist-link:hover {
-  visibilty: none !important;
+  
   border: none;
   text-decoration: line-through !important;
 }
