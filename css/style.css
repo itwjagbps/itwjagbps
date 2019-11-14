@@ -15,8 +15,12 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
  }
 
 @media (max-width: 768px) {
-  .tit {
-  width: 9em; }
+  
+   .tit img {
+  position: relative;
+  margin: 2rem;
+  width: 21rem;
+ } 
 }
 
 .footer {
@@ -137,11 +141,7 @@ a:visited {
 }*/
 
 @media (max-width: 768px) {
-  .tit img {
-  position: relative;
-  margin: 2rem;
-  width: 21rem;
- }
+ 
   
   #header-title {
     margin-left: 30px;
