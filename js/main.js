@@ -2,7 +2,7 @@
 
 const artists = [
   {
-    name: "🔗 ",
+    name: "🔗",
     piece: "",
     outerLink: ""
   },
@@ -12,7 +12,7 @@ const artists = [
     outerLink: "https://minoliti.com.ar/P_S_O/web-export/"
   },
    {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -22,13 +22,13 @@ const artists = [
     outerLink: "/5-estrelas"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
   { name: "Alina Rancier", piece: "Ay!", outerLink: "/ay!" },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -38,7 +38,7 @@ const artists = [
     outerLink: "/ok-guarebel"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -48,7 +48,7 @@ const artists = [
     outerLink: "https://fade-cut.github.io/futuroflotante/"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -58,7 +58,7 @@ const artists = [
     outerLink: "/undipbienlazy-phantasiatransdermica"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -68,7 +68,7 @@ const artists = [
     outerLink: "/the-light-in-the-foggy-coast"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
@@ -78,7 +78,7 @@ const artists = [
     outerLink: "/the-perfect-veil"
   },
   {
-    name: ", 🔗 ",
+    name: ", 🔗",
     piece: "",
     outerLink: ""
   },
