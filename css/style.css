@@ -77,6 +77,7 @@ body {
 }
 
 p {
+  pointer-events: none;
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
