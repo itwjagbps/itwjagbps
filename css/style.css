@@ -16,7 +16,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 
 @media (max-width: 768px) {
   .tit {
-  width: 12em; }
+  width: 9em; }
 }
 
 .footer {
