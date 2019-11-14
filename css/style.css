@@ -24,6 +24,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   right: 2.5rem;
   position: fixed;
   z-index: 99;
+  width:auto;
 }
 
 .footer img {
@@ -197,7 +198,7 @@ a:visited {
 
   .footer {
   
-  position: absolute;
+    position: fixed;
     right: 4rem;
     top: 4rem;
     width: 7rem;
