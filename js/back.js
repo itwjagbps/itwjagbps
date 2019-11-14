@@ -1,6 +1,6 @@
 var img = new Image();
 img.onload = start;
-img.src = "/images/back2.png";
+img.src = "/images/back.png";
 
 function start() {
 
