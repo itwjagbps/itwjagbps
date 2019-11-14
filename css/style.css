@@ -52,7 +52,7 @@ text-align: left;
 }
 
 body {
-  /*overflow-x: hidden;*/
+  overflow: hidden;
   font-family: 'Space Mono', monospace;
   margin:0;
 }
