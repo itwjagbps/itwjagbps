@@ -194,12 +194,12 @@ a:visited {
     margin-left: 20px;
   }
 
-  .footer {
+  .footer img {
   
-    position: fixed;
-    right: 4rem;
-    top: 4rem;
     width: 7rem;
+    bottom: 3rem;
+    right: 2rem;
+    position: fixed;
 
 }
 
