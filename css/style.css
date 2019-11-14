@@ -25,6 +25,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 button {
+  color:grey;
   border: none;
   font-size: 3rem !important;
   background: transparent;
@@ -101,7 +102,7 @@ p {
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   line-height: auto !important;
 }
 
@@ -163,7 +164,7 @@ a:visited {
 
   .artist-list {
     font-size: 1.5rem !important;
-    padding-top: 25px;
+    padding-top: 35px;
     padding-left: 15px;
     padding-right: 30px;
     margin-bottom: 20px;
@@ -174,7 +175,7 @@ a:visited {
   font-size: 1.5rem !important;
    padding-left: 15px;
    padding-right: 30px;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
   line-height: auto !important;
 }
 
