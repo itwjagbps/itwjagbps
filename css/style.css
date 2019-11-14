@@ -32,7 +32,7 @@ button {
   padding-left: 150px !important;
 }
 button:hover {
- text-decoration: line-through !important; color: #0095ff
+ text-decoration: line-through !important; 
 }
   
 .footer {
@@ -132,7 +132,7 @@ a:link {
   text-decoration:none !important;
 }
 
-a:hover {text-decoration: line-through !important;color: #0095ff}
+a:hover {text-decoration: line-through !important}
 
 a:visited {
   color: black;
