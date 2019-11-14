@@ -165,29 +165,30 @@ $("li").mouseover(function() {
     )}.png' />`
   );
   console.log(pieceImage.attr("height"));
-  pieceImage.css("height", "45%").css("width", "45%");
+  pieceImage.css("height", "75%").css("width", "75%");
   imageDiv.html(pieceImage);
 
   if (pieceImage.attr("id") === "the-perfect-veil") {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "40%").css("top", "0px");
   } else if (pieceImage.attr("id") === "ok-guarebel") {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "18%").css("top", "-150px");
   } else if (pieceImage.attr("id") === "5-estrelas") {
-    imageDiv.css("left", "0").css("top", "0");
-    pieceImage.css("height", "0").css("width", "0");
+    imageDiv.css("left", "40%").css("top", "-150px");
+    pieceImage.css("height", "30%").css("width", "30%");
   } else if (pieceImage.attr("id") === "ay!") {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "34%").css("top", "-80px");
   } else if (pieceImage.attr("id") === "assimilation") {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "25%").css("top", "-150px");
   }
   else if (pieceImage.attr("id") === "the-light-in-the-foggy-coast") {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "25%").css("top", "-150px");
   }
   else {
-    imageDiv.css("left", "0").css("top", "0");
+    imageDiv.css("left", "20%").css("top", "-100px");
   }
 });
 
 $("li").mouseout(function() {
   imageDiv.empty();
 });
+
