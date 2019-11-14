@@ -15,6 +15,11 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   width: 53rem; }
 }
 
+.footer img {
+  bottom: 0px;
+  right: 0px;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Space Mono', monospace;
@@ -95,20 +100,20 @@ a:visited {
   text-decoration:none !important;
 }
 
-
+/*
 #logo-div {
   position: absolute;
-  /* margin-right: 100px; */
+  
   right: 30px !important;
   bottom: 30px !important;;
 }
 
 #logo-div img {
   position: absolute;
-  /* margin-right: 100px; */
+ 
   right: 30px !important;
   bottom: 30px !important;;
-}
+}*/
 
 @media (max-width: 768px) {
   #header-title {
