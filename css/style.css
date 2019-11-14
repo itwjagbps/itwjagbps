@@ -24,7 +24,12 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 }
 
 button {
+  font-size: 3rem !important;
+  background: transparent;
   padding-left: 170px !important;
+}
+button:hover {
+ text-decoration: line-through !important;
 }
   
 .footer {
@@ -89,7 +94,7 @@ body {
 }
 
 p {
-  pointer-events: none;
+  pointer-events: none !important;
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
