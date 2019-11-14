@@ -134,6 +134,12 @@ a:visited {
 }*/
 
 @media (max-width: 768px) {
+  .tit img {
+  position: relative;
+  margin: 2rem;
+  width: 26em;
+ }
+  
   #header-title {
     margin-left: 30px;
     font-size: 20px;
@@ -192,7 +198,8 @@ a:visited {
   position: absolute;
     right: 4rem;
     top: 4rem;
-  z-index: 99;
+    width: 7rem;
+
 }
 
 .footer img {
