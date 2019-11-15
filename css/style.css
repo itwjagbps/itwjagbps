@@ -23,7 +23,8 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   width: 20.5rem;
  } 
   html {
-overflow:auto !important;
+    overflow:auto !important;
+    background-color: #000 !important;
   
 }
 }
@@ -46,6 +47,8 @@ button:hover {
   z-index: 99;
   width:auto;
 }
+
+
 
 .footer img {
  
