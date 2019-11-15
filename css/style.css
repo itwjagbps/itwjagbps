@@ -22,6 +22,12 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   margin-left: 15px;
   width: 20.5rem;
  } 
+  
+  html {
+  overflow-x:hidden !important;
+  overflow-y:hidden !important;
+  height:100%;
+  }
 
 }
 
@@ -112,8 +118,8 @@ p {
   padding-right: 100px;
   margin-bottom: 10px;
   line-height: auto !important;
-  overflow: auto;
-  height: 180px;
+  overflow-y: scroll;
+  height: 175px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   position: relative;
