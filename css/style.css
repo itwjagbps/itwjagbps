@@ -22,11 +22,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   margin-left: 15px;
   width: 20.5rem;
  } 
-  html {
-    overflow:auto !important;
-    background-color: #000 !important;
-  
-}
+
 }
 
 button {
@@ -60,11 +56,11 @@ text-align: left;
 
 html {
 
-  height:100% !important;
+ 
 }
 
 body {
-  overflow: auto;
+  
   font-family: 'Space Mono', monospace;
   margin:0;
 }
@@ -110,13 +106,14 @@ body {
 }
 
 p {
-  color:black;
+  color: black;
   font-size: 3rem !important;
   padding-left: 150px;
   padding-right: 100px;
   margin-bottom: 10px;
   line-height: auto !important;
-  overflow: scroll;
+  overflow: auto;
+  height: 180px;
 }
 
 .artist-list li:before {
