@@ -65,6 +65,7 @@ text-align: left;
 
 html {
  background-color: black;
+  position:fixed;
 }
 
 body {
