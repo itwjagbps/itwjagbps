@@ -127,6 +127,15 @@ p {
   position: relative;
 }
 
+
+p::-webkit-scrollbar {
+  width: 7px;
+}
+
+p::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .6);
+}
+
 .artist-list li:before {
   /* content: "\00a0\2022\00a0\00a0";
   color: black;
