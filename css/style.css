@@ -59,7 +59,7 @@ text-align: left;
 }
 
 html {
-overflow:hidden !important;
+
   height:100% !important;
 }
 
@@ -116,7 +116,7 @@ p {
   padding-right: 100px;
   margin-bottom: 10px;
   line-height: auto !important;
-  
+  overflow: scroll;
 }
 
 .artist-list li:before {
