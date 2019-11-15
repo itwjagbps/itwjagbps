@@ -27,8 +27,8 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   overflow-x:hidden !important;
   overflow-y:hidden !important;
   height: 100%;
-  width: 100%;
-  height: 120px;
+  position:fixed;
+  height: 17rem;
   }
 
 }
