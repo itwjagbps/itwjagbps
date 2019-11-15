@@ -203,11 +203,12 @@ a:visited {
   }
   
   p {
-  font-size: 1.5rem !important;
+   font-size: 1.5rem !important;
    padding-left: 0px;
    padding-right: 20px;
    margin-bottom: 10px;
-  line-height: auto !important;
+   line-height: auto !important;
+   height: 12rem;
 }
 
   .artist-list li:before {
