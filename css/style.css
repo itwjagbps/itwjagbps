@@ -114,6 +114,9 @@ p {
   line-height: auto !important;
   overflow: auto;
   height: 180px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
 }
 
 .artist-list li:before {
