@@ -74,7 +74,7 @@ iframe {
     background-size: cover;
   }
 
-  #vimeo-video {
+  iframe {
     top: 140px;
     width: 100%;
   }
