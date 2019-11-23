@@ -9,10 +9,9 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
 
 .tit img {
   position: relative;
-  margin-top: 5rem;
-  margin-left: 9rem;
-  width: 33em;
-  text-shadow: 2px 2px #fff;
+  margin-top: 8rem;
+  margin-left: 10rem;
+  width: 31em;
  }
 
 @media (max-width: 768px) {
