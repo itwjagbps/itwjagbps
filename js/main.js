@@ -9,7 +9,7 @@ const artists = [
   {
     name: "Ad Minoliti",
     piece: "Play Significant Otherness",
-    outerLink: "https://minoliti.com.ar/P_S_O/web-export/"
+    outerLink: "/pso"
   },
    {
     name: ", 🔗",
@@ -45,7 +45,7 @@ const artists = [
   {
     name: "Javier Maria",
     piece: "Futuro Flotante",
-    outerLink: "https://fade-cut.github.io/futuroflotante/"
+    outerLink: "/futuro-flotante"
   },
   {
     name: ", 🔗",
