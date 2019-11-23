@@ -19,7 +19,7 @@ let vimeoVideoArray = [
 ];
 
 // store the iframe src format for vimeo embed links
-let src = `?title=0&byline=0&portrait=0"`;
+let src = `?title=0&byline=0&portrait=0&autoplay=1"`;
 
 // store width and height, frameborder, and allow parameter values of vimeo embed links
 let width, height, frameborder, allow;
@@ -35,7 +35,7 @@ vimeoVideoArray.map((video, i) => {
 
   // create an iframe element with corresponding parameters
   let iframe = $(
-    `<iframe src=${video}${src} width=${width} height=${height} frameborder=${frameborder} allow${allow} allowfullscreen id="video-${i}" class="video"></iframe>`
+    `<iframe src=${video}${src} width=${width} height=${height} frameborder=${frameborder} allow${allow} webkitallowfullscreen mozallowfullscreen allowfullscreen id="video-${i}" class="video"></iframe>`
   );
 
   // append iframe to contentCol and contentCol to contentRow
