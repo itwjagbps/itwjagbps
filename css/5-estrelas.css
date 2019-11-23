@@ -27,8 +27,9 @@ img.story-image {
   img.story-image {
     width: 83vw;
     margin-bottom: 49px;
+    margin-right: 0px;
      
   }
   #estrelas-row {top: 6vw;
-    left: 13vw;}
+    left: 8vw;}
 }
