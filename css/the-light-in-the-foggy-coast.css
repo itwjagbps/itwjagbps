@@ -62,7 +62,7 @@ iframe {
 }*/
 
 @media (max-width: 767px) {
- /* #foggy-video {
+  #foggy-video {
     display: none;
   }
 
@@ -75,7 +75,7 @@ iframe {
   #vimeo-video {
     top: 180px;
     width: 90%;
-  }*/
+  }
   #led-img {
     /* position: absolute; */
     top: 170px;
