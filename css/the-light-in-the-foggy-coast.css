@@ -74,9 +74,10 @@ iframe {
     background-size: cover;
   }
 
-  iframe {
+  iframe  {
     top: 140px;
     width: 100%;
+    left:0;
   }
   #led-img {
     /* position: absolute; */
