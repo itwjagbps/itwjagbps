@@ -70,6 +70,7 @@ iframe {
     background: url("https://www.itwjagbps.net/images/the-light-in-the-foggy-coast/fog.png") no-repeat;
     border: none;
     position: fixed;
+    z-index:-999;
     background-size: cover;
   }
 
@@ -80,6 +81,7 @@ iframe {
   #led-img {
     /* position: absolute; */
     top: 130px;
+    left:0;
     width: 100%;
     height: auto;
   }
