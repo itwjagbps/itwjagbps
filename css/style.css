@@ -12,8 +12,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   margin-top: 5rem;
   margin-left: 9rem;
   width: 33em;
-	opacity: .75;
-	background-blend-mode: multiply;
+  text-shadow: 2px 2px #fff;
  }
 
 @media (max-width: 768px) {
