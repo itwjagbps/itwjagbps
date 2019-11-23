@@ -25,11 +25,10 @@ img.story-image {
 
 @media (max-width: 768px) {
   img.story-image {
-    width: 86vw;
-    height: 76%;
-    margin: auto;
+    width: 83vw;
     margin-bottom: 49px;
-    margin-top: 50px; 
+     
   }
-  #estrelas-row {top: 20%;}
+  #estrelas-row {top: 6vw;
+    left: 13vw;}
 }
