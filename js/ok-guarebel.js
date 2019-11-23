@@ -19,7 +19,7 @@ let vimeoVideoArray = [
 ];
 
 // store the iframe src format for vimeo embed links
-let src = `?title=0&byline=0&portrait=0&autoplay=1"`;
+let src = `?title=0&byline=0&portrait=0&autoplay=1&loop=1&autopause=0"`;
 
 // store width and height, frameborder, and allow parameter values of vimeo embed links
 let width, height, frameborder, allow;
