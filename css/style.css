@@ -21,6 +21,7 @@ canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: 
   margin-top: 3rem;
   margin-left: 15px;
   width: 20.5rem;
+  opacity: 0.88;
   } 
   
   html {
