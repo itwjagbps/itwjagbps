@@ -35,7 +35,7 @@ vimeoVideoArray.map((video, i) => {
 
   // create an iframe element with corresponding parameters
   let iframe = $(
-    `<iframe src=${video}${src} width=${width} height=${height} frameborder=${frameborder} allow${allow} webkitallowfullscreen mozallowfullscreen allowfullscreen id="video-${i}" class="video"></iframe>`
+    `<iframe src=${video}${src} width=${width} height=${height} frameborder=${frameborder} allow${allow} allowfullscreen id="video-${i}" class="video"></iframe>`
   );
 
   // append iframe to contentCol and contentCol to contentRow
