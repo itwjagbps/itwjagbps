@@ -61,6 +61,7 @@
 
   <body>
       <style>
+          
 details {
     font-family: 'Space Mono', monospace;
     font-size: 1vw !important;
@@ -71,7 +72,7 @@ details {
     position: fixed;
     color: white;
     width: auto;
-    padding: 2vw;
+    padding: 2vw 4vw 2vw 2vw;
     margin: auto;
     top: 3vw;
     left: 0vw;
@@ -86,6 +87,24 @@ details p {
     height: auto;
     overflow: auto;
     padding: 0;
+          }
+          
+@media (max-width: 768px) {
+    
+    details {
+    font-size: 2vw !important;
+    padding: 4vw 8vw 4vw 4vw;
+    margin: auto;
+    top: 6vw;
+    left: 0vw;
+    display: block;
+}
+    
+details p {
+    font-size: 2vw !important;
+          }
+    
+    
           }
 </style> 
 <details>
