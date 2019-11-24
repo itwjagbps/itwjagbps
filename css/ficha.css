@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-summary{
+    details > summary {
     -webkit-animation: bounce-right 2s 6 both ease-out;
     animation: bounce-right 2s 6 both ease-out;
-    z-index: 99999999;
+    z-index: 99999;
     font-size: 3vw;
+    padding-left:1vw;
  }
-
  @-webkit-keyframes bounce-right {
   0%, 10%, 25%, 40%, 50% {
     -webkit-transform: translateX(0);
@@ -31,9 +31,9 @@ summary{
           
 details {
     font-family: 'Space Mono', monospace;
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
     line-height: auto;
-    z-index: 99999999;
+    z-index: 99999;
     background-color: transparent;
     opacity: .65;
     position: fixed;
@@ -42,35 +42,32 @@ details {
     padding: 2vw;
     margin: auto;
     top: 0;
-    left: 0;
+    left: 1vw;
     display: block;
-
 }
-details p {
+details > p {
     margin: 0;
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
     line-height: auto;
     color: white;
     height: auto;
     overflow: auto;
     padding: 0;
           }
-
-
 @media (max-width: 768px) {
-    summary{
+    details > summary {
     font-size: 5vw;
  }
-     details {
+    details {
     font-size: 3vw !important;
     padding: 4vw;
     margin: auto;
     top: 0;
-    left: 0;
+    left: 2vw;
     display: block;
 }
     
-details p {
+details > p {
     font-size: 3vw !important;
           }
   }
