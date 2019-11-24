@@ -2,11 +2,12 @@
 
 summary{
     -webkit-animation: bounce-right 2s 6 both ease-out;
-              animation: bounce-right 2s 6 both ease-out;
-    z-index: 99999;
+    animation: bounce-right 2s 6 both ease-out;
+    z-index: 99999999;
     font-size: 3vw;
  }
-          @-webkit-keyframes bounce-right {
+
+ @-webkit-keyframes bounce-right {
   0%, 10%, 25%, 40%, 50% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
@@ -32,7 +33,7 @@ details {
     font-family: 'Space Mono', monospace;
     font-size: 2vw !important;
     line-height: auto;
-    z-index: 99999;
+    z-index: 99999999;
     background-color: transparent;
     opacity: .65;
     position: fixed;
@@ -58,7 +59,7 @@ details p {
 
 @media (max-width: 768px) {
     summary{
-    font-size: 4vw;
+    font-size: 5vw;
  }
      details {
     font-size: 3vw !important;
