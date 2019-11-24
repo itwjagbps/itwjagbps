@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
 summary, details{
     -webkit-animation: bounce-right 2s 6 both ease-out;
               animation: bounce-right 2s 6 both ease-out;
