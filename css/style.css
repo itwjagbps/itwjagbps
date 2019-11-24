@@ -1,7 +1,3 @@
-/*@font-face {
-  font-family: "SpaceMono-Regular";
-  font-style: normal;
-  src: url(css/SpaceMono-Regular.ttf) format("truetype");}*/
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 canvas { width: 100vw; height: 100vh; display: block; position: fixed; z-index: -9999999}
@@ -174,23 +170,74 @@ a:visited {
   text-decoration:none !important;
 }
 
-/*
-#logo-div {
-  position: absolute;
-  
-  right: 30px !important;
-  bottom: 30px !important;;
-}
+     
+summary, details{
+    -webkit-animation: bounce-right 2s 25 both ease-out;
+              animation: bounce-right 2s 25 both ease-out;
+ }
+          @-webkit-keyframes bounce-right {
+  0%, 10%, 25%, 40%, 50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  20% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); } }
+@keyframes bounce-right {
+  0%, 10%, 25%, 40%, 50% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); }
+  20% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px); }
+  30% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px); } }
+          
+          
+details {
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem !important;
+    line-height: auto;
+    z-index: 999;
+    background-color: transparent;
+    opacity: .65;
+    position: fixed;
+    color: white;
+    width: 100vw;
+    padding: 2vw;
+    margin: auto;
+    top: 0;
+    left: 0;
+    display: block;
 
-#logo-div img {
-  position: absolute;
- 
-  right: 30px !important;
-  bottom: 30px !important;;
-}*/
+}
+details p {
+    margin: 0;
+    font-size: 3rem !important;
+    line-height: auto;
+    color: white;
+    height: auto;
+    overflow: auto;
+    padding: 0;
+          }
+
 
 @media (max-width: 768px) {
- 
+     details {
+    font-size: 3vw !important;
+    padding: 4vw;
+    margin: auto;
+    top: 0;
+    left: 0;
+    display: block;
+}
+    
+details p {
+    font-size: 3vw !important;
+          }
   
   #header-title {
     margin-left: 30px;
