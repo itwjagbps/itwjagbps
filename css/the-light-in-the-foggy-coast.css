@@ -65,6 +65,11 @@ iframe {
   #foggy-video {
     display: none;
   }
+  
+  .cont {
+   width:90%;
+   margin:auto;
+  }
 
   #video-div {
     background: url("https://www.itwjagbps.net/images/the-light-in-the-foggy-coast/fog.png") no-repeat;
