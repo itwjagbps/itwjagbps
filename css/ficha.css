@@ -3,6 +3,7 @@
 summary, details{
     -webkit-animation: bounce-right 2s 6 both ease-out;
               animation: bounce-right 2s 6 both ease-out;
+    z-index: 99999;
  }
           @-webkit-keyframes bounce-right {
   0%, 10%, 25%, 40%, 50% {
@@ -28,9 +29,9 @@ summary, details{
           
 details {
     font-family: 'Space Mono', monospace;
-    font-size: 3rem !important;
+    font-size: 2.8rem !important;
     line-height: auto;
-    z-index: 999;
+    z-index: 99999;
     background-color: transparent;
     opacity: .65;
     position: fixed;
@@ -45,7 +46,7 @@ details {
 }
 details p {
     margin: 0;
-    font-size: 3rem !important;
+    font-size: 2.8rem !important;
     line-height: auto;
     color: white;
     height: auto;
