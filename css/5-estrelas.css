@@ -26,6 +26,7 @@ img.story-image {
 @media (max-width: 768px) {
   img.story-image {
     width: 83vw;
+    margin-top: 49px;
     margin-bottom: 49px;
     margin-right: 0px;
      
