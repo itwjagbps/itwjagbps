@@ -2,7 +2,8 @@
 let imageUrl = "../images/5-estrelas/gradient.jpg";
 $("body")
   .css("background-image", `url(${imageUrl})`)
-  .css("background-position", "40% 10%");
+  .css("background-size", "cover");
+
 
 // iteratively add the images in their respective columns
 let imageCounter = 1;
