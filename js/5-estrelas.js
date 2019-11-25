@@ -2,7 +2,7 @@
 let imageUrl = "../images/5-estrelas/gradient.jpg";
 $("body")
   .css("background-image", `url(${imageUrl})`)
-  .css("background-size", "cover");
+  .css("background-size", "100% 100%");
   .css("background-repeat", "no-repeat");
 
 
