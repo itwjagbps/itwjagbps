@@ -1,8 +1,8 @@
 // set redecode image as body background
 let imageUrl = "../images/5-estrelas/gradient.jpg";
-$("body")
+$(".back")
   .css("background-image", `url(${imageUrl})`)
-  .css("background-size", "100% 100%");
+  .css("background-size", "cover");
   .css("background-repeat", "no-repeat");
 
 
