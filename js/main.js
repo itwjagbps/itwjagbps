@@ -45,7 +45,7 @@ const artists = [
   {
     name: "Javier Maria",
     piece: "Futuro Flotante",
-    outerLink: "/futuro-flotante"
+    outerLink: "/untitled"
   },
   {
     name: ", 🔗",
