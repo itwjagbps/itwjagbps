@@ -1,9 +1,9 @@
 // set redecode image as body background
-let imageUrl = "../images/5-estrelas/gradient.jpg";
+/*let imageUrl = "../images/5-estrelas/gradient.jpg";
 $("body")
   .css("background-image", `url(${imageUrl})`)
   .css("background-size", "cover");
-  .css("background-repeat", "no-repeat");
+  .css("background-repeat", "no-repeat");*/
 
 
 // iteratively add the images in their respective columns
