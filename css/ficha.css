@@ -6,6 +6,8 @@
     z-index: 99999;
     font-size: 3vw;
     padding-left:1vw;
+    outline:0;
+   
  }
  @-webkit-keyframes bounce-right {
   0%, 10%, 25%, 40%, 50% {
