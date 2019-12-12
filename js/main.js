@@ -53,7 +53,7 @@ const artists = [
     outerLink: ""
   },
   {
-    name: "Ray Ferreira",
+    name: "ray ferreira",
     piece: "undipbienlazy-phantasiatransdermica",
     outerLink: "/undipbienlazy-phantasiatransdermica"
   },
