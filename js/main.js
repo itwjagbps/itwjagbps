@@ -85,7 +85,7 @@ const artists = [
   {
     name: "Gabriella Torres-Ferrer",
     piece: "Assimilation",
-    outerLink: "/itwjgbps?"
+    outerLink: "/assimilation"
   }
   // {
   //   name: "Joiri Minaya",
